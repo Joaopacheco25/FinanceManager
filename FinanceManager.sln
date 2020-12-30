@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApi", "AuthenticationApi\AuthenticationApi.csproj", "{062D0D78-CABC-4CAB-8E3B-0E09A385C20C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanceData.Tests", "FinanceData.Tests\FinanceData.Tests.csproj", "{1B9FC8F1-7954-48BE-A8AB-2FFFEDF6745F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{062D0D78-CABC-4CAB-8E3B-0E09A385C20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062D0D78-CABC-4CAB-8E3B-0E09A385C20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062D0D78-CABC-4CAB-8E3B-0E09A385C20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062D0D78-CABC-4CAB-8E3B-0E09A385C20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B9FC8F1-7954-48BE-A8AB-2FFFEDF6745F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9FC8F1-7954-48BE-A8AB-2FFFEDF6745F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9FC8F1-7954-48BE-A8AB-2FFFEDF6745F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9FC8F1-7954-48BE-A8AB-2FFFEDF6745F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
