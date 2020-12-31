@@ -1,6 +1,6 @@
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1
-COPY . /app
-WORKDIR /app
+COPY . /FinanceManager
+WORKDIR /FinanceManager
 RUN ["dotnet", "restore"]
 RUN ["dotnet", "build"]
 EXPOSE 80/tcp
